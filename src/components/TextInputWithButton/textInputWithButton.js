@@ -5,13 +5,13 @@ import TextInput from '../TextInput/textInput.js';
 // This is a functional component - just sent up a little differently as an arrow function!
 
 class TextInputWithButton extends Component {
-    constructor(props){
-           super(props);
+    // constructor(props){
+    //        super(props);
         //   this.state = {
         //       value: ""
         //  }
                 
-     }
+    //  }
 
 
 
@@ -31,7 +31,7 @@ class TextInputWithButton extends Component {
         // }
     return (
         <div id="thisContainer">
-           <TextInput class={this.props.class} placeHolder={this.props.placeHolder} />
+           <TextInput id='hi' class={this.props.class} placeHolder={this.props.placeHolder} />
             <span>
             <button onClick={this.props.onClick} className={this.props.buttClass}>{this.props.buttonLabel}</button>
             </span>

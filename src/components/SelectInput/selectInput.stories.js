@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import SelectInput from './selectInput';
-import Pic from './arrowThing.png';
+
 
 
 storiesOf('SelectInput', module)

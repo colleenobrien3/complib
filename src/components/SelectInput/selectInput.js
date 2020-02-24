@@ -22,7 +22,7 @@ const SelectInput = (props) => {
             <option>{props.opt1}</option>
             <option>{props.opt2}</option>
          </select>
-         <img src={Pic}/>
+         <img src={Pic} alt='Pic'/>
          </div>
     )
 }
