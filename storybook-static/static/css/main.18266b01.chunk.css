@@ -207,10 +207,12 @@ button {
 
 .medium {
     height: 24px;
+    padding: 6px !important;
 }
 
 .larger {
     height: 38px;
+    padding: 9px !important;
 }
 
 .button-large {
@@ -242,4 +244,6 @@ input{
     height: 44px;  
 }
 
-/*# sourceMappingURL=main.b15d771e.chunk.css.map*/
+
+
+/*# sourceMappingURL=main.18266b01.chunk.css.map*/

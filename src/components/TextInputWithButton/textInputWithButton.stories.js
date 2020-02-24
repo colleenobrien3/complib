@@ -17,6 +17,5 @@ storiesOf('TextInputWithButton', module)
         buttonLabel="Redeem"
         class='larger'
         buttClass="largerButt"
-        onClick
         onClick={(arg) => alert(arg)}
     />)
