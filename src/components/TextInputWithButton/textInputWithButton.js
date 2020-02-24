@@ -33,7 +33,7 @@ class TextInputWithButton extends Component {
         <div id="thisContainer">
            <TextInput class={this.props.class} placeHolder={this.props.placeHolder} />
             <span>
-            <button className={this.props.buttClass}>{this.props.buttonLabel}</button>
+            <button onClick={this.props.onClick} className={this.props.buttClass}>{this.props.buttonLabel}</button>
             </span>
          </div>
     )

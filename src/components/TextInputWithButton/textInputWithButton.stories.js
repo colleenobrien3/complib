@@ -9,6 +9,7 @@ storiesOf('TextInputWithButton', module)
          buttonLabel="Redeem"
          class="medium"
          buttClass="mediumButt"
+         onClick={(event) => alert('hello') }
       />)
     .add('Large', () => <TextInputWithButton
         placeHolder="Voucher code"
