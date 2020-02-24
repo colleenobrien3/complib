@@ -42,10 +42,12 @@ button {
 
 .medium {
     height: 24px;
+    padding: 6px !important;
 }
 
 .larger {
     height: 38px;
+    padding: 9px !important;
 }
 
 .button-large {

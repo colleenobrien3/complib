@@ -10,12 +10,13 @@ storiesOf('TextInputWithButton', module)
          buttonLabel="Redeem"
          class="medium"
          buttClass="mediumButt"
-         onClick={(event) => alert(document.querySelector('#hi'))}
+         onClick={(arg) => alert(arg)}
       />)
     .add('Large', () => <TextInputWithButton
         placeHolder="Voucher code"
         buttonLabel="Redeem"
         class='larger'
         buttClass="largerButt"
-    
+        onClick
+        onClick={(arg) => alert(arg)}
     />)
