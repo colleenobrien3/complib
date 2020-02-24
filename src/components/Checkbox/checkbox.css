@@ -11,6 +11,12 @@
     background-size: contain;
 }
 
+.checkedBlue {
+    background-image: url('./checkedBlue.png');
+    background-size: contain;
+    border-color: blue;
+}
+
 #containThis {
     display: flex;
 }

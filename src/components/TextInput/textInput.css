@@ -1,40 +1,6 @@
-button {
-    border-radius: 2px;
-    padding: 5px 25px;
-}
-
-.button-outline {
-    background-color: hotpink;
-}
-
-.button-primary {
-    background-color: #0069D9;
-    color: white;
-    border: #0069D9;
-}
-
-.button-primary:hover {
-    background-color: pink;
-}
 
 
-.button-danger {
-    background-color: red;
-    color: white;
-    border: red;
-}
 
-.button-success {
-    background-color: green;
-    color: white;
-    border: green;
-}
-
-.button-warning {
-    background-color: orange;
-    color: white;
-    border: orange;
-}
 
 .textInput-medium {
     height: 100px;
@@ -50,9 +16,6 @@ button {
     padding: 9px !important;
 }
 
-.button-large {
-    padding: 10px 50px;
-}
 
 form {
     font-size: 12px;

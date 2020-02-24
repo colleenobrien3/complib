@@ -8,3 +8,8 @@ storiesOf('Checkbox', module)
          class='checked'
          message="Fuck off"
       />)
+
+      .add('Blue', () => <Checkbox
+      class='checkedBlue'
+      message="Fuck off"
+   />)

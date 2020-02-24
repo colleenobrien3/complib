@@ -29,12 +29,12 @@ class TextInput extends Component {
             classList += ` textInput-medium`
         }
     return (
-        <form className={classList}>
+        <div className={classList}>
             <div>
             {this.props.label}
             </div>
-            <input className={this.props.class} placeholder={this.props.placeHolder || this.props.label} onChange={this.getInput}></input>
-         </form>
+            <input className={this.props.class} placeholder={this.props.placeHolder || this.props.label} onChange={(event) => this.props.onChange(event)}></input>
+         </div>
     )
 }
 }

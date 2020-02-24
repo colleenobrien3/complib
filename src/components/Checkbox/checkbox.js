@@ -22,6 +22,7 @@ class Checkbox extends Component {
              this.setState({checked: true})
          }
          document.querySelector('#box').classList.toggle('checked')
+         
     };
     
     render(){

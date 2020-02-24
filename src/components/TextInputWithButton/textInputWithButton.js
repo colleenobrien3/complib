@@ -5,20 +5,20 @@ import TextInput from '../TextInput/textInput.js';
 // This is a functional component - just sent up a little differently as an arrow function!
 
 class TextInputWithButton extends Component {
-    // constructor(props){
-    //        super(props);
-        //   this.state = {
-        //       value: ""
-        //  }
+    constructor(props){
+           super(props);
+          this.state = {
+              value: ""
+         }
                 
-    //  }
+     }
 
 
 
 
-    //  getInput = (event) => {
-    //     this.setState({value: event.target.value})
-    // };
+     getInput = (event) => {
+        this.setState({value: event.target.value})
+    };
     
     render(){
         // let classList = '';
@@ -30,12 +30,12 @@ class TextInputWithButton extends Component {
         //     classList += ` textInput-medium`
         // }
     return (
-        <div id="thisContainer">
-           <TextInput id='hi' class={this.props.class} placeHolder={this.props.placeHolder} />
+        <form onSubmit={(e) => {e.preventDefault(); this.props.onSubmit(this.state.value)} } id="thisContainer">
+           <TextInput class={this.props.class} placeHolder={this.props.placeHolder} onChange={this.getInput} />
             <span>
-            <button onClick={this.props.onClick('hi')} className={this.props.buttClass}>{this.props.buttonLabel}</button>
+            <button className={this.props.buttClass}>{this.props.buttonLabel}</button>
             </span>
-         </div>
+         </form>
     )
 }
 }
