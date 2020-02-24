@@ -9,6 +9,9 @@ const Button = (props) => {
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     }
+    if (!(props.type)) {
+        classList += ` button-default`
+    }
     if (props.large) {
         classList += ` button-large`
     }

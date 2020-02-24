@@ -113,7 +113,6 @@ storiesOf('Button', module)
        .add('Default', () => <Button
        label="Default"
        // style={warningStyle}
-      type="default"
       />)
 
       .add('Heart', () => <Button
