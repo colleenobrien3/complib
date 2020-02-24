@@ -3,15 +3,18 @@
 }
 
 .mediumButt {
+    margin-top: 5px;
+    height: 39px;
     background-color:rgb(51, 160, 255);
     color: white;
     border-color: rgb(51, 160, 255);
 }
 
 .largerButt {
+   margin-top: 5px;
     background-color:rgb(51, 160, 255);
     color: white;
     border-color: rgb(51, 160, 255);
-    height: 44px;  
+    height: 57px;  
 }
 
