@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 
 import Button from './Button';
 import Pic from '../Icon/heartbtn.png';
+import Pic2 from '../Icon/cartBtn.png';
 
 
 // const style = {
@@ -122,4 +123,12 @@ storiesOf('Button', module)
         textFill
         icon
         src={Pic}
+        />)
+        .add('Cart', () => <Button
+        label="Add To Cart"
+        type="primary"
+        muted
+        textFill
+        icon
+        src={Pic2}
         />)

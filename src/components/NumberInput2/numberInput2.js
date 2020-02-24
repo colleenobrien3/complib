@@ -35,11 +35,11 @@ class NumberInput2 extends Component {
 
     return (
         <div className='thisDiv'>
-            <span className='box' onClick={this.minus}>  -  </span>
+            <span className='box blue' onClick={this.minus}>  -  </span>
             <span className='box'>
              {this.state.numb} 
             </span>
-            <span className='box' onClick={this.plus}>  +  </span>
+            <span className='box blue' onClick={this.plus}>  +  </span>
          </div>
     )
 }

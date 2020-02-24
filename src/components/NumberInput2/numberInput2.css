@@ -1,8 +1,10 @@
 .box {
-    width: 10%;
+    width: 8%;
     height: 20px;
+
     background-color: whitesmoke;
     padding: 10px;
+    text-align: center;
 }
 
 .box:hover {
@@ -11,4 +13,11 @@
 
 
 .thisDiv {
+   
+    width: 20%;
+    display: flex;
+}
+
+.blue {
+    color: blue;
 }
