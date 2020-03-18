@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.18266b01.chunk.css",
-    "main.js": "/main.e8a650aed44368479b91.bundle.js",
-    "main.css.map": "/static/css/main.18266b01.chunk.css.map",
-    "main.js.map": "/main.e8a650aed44368479b91.bundle.js.map",
-    "runtime~main.js": "/runtime~main.e8a650aed44368479b91.bundle.js",
-    "runtime~main.js.map": "/runtime~main.e8a650aed44368479b91.bundle.js.map",
-    "vendors~main.js": "/vendors~main.e8a650aed44368479b91.bundle.js",
-    "vendors~main.js.map": "/vendors~main.e8a650aed44368479b91.bundle.js.map",
+    "main.css": "/static/css/main.9b726297.chunk.css",
+    "main.js": "/main.31f1422797c0ff745fa6.bundle.js",
+    "main.css.map": "/static/css/main.9b726297.chunk.css.map",
+    "main.js.map": "/main.31f1422797c0ff745fa6.bundle.js.map",
+    "runtime~main.js": "/runtime~main.31f1422797c0ff745fa6.bundle.js",
+    "runtime~main.js.map": "/runtime~main.31f1422797c0ff745fa6.bundle.js.map",
+    "vendors~main.js": "/vendors~main.31f1422797c0ff745fa6.bundle.js",
+    "vendors~main.js.map": "/vendors~main.31f1422797c0ff745fa6.bundle.js.map",
     "iframe.html": "/iframe.html",
-    "precache-manifest.aa7cc2a5bdc3fdb2cb413e27430c2f90.js": "/precache-manifest.aa7cc2a5bdc3fdb2cb413e27430c2f90.js",
+    "precache-manifest.1f571f81c7f24f2a2405e1a5d10c2078.js": "/precache-manifest.1f571f81c7f24f2a2405e1a5d10c2078.js",
     "service-worker.js": "/service-worker.js",
     "static/media/selectInput.css": "/static/media/arrowThing.b72925e3.png",
     "static/media/cartBtn.png": "/static/media/cartBtn.5c305d48.png",
-    "static/media/checkbox.css": "/static/media/checkedBlack.d9e463d7.png",
+    "static/media/checkbox.css": "/static/media/checkedBlue.53a58277.png",
     "static/media/heartbtn.png": "/static/media/heartbtn.8053d332.png",
-    "vendors~main.e8a650aed44368479b91.bundle.js.LICENSE.txt": "/vendors~main.e8a650aed44368479b91.bundle.js.LICENSE.txt"
+    "vendors~main.31f1422797c0ff745fa6.bundle.js.LICENSE.txt": "/vendors~main.31f1422797c0ff745fa6.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.e8a650aed44368479b91.bundle.js",
-    "vendors~main.e8a650aed44368479b91.bundle.js",
-    "static/css/main.18266b01.chunk.css",
-    "main.e8a650aed44368479b91.bundle.js"
+    "runtime~main.31f1422797c0ff745fa6.bundle.js",
+    "vendors~main.31f1422797c0ff745fa6.bundle.js",
+    "static/css/main.9b726297.chunk.css",
+    "main.31f1422797c0ff745fa6.bundle.js"
   ]
 }

@@ -1,0 +1,262 @@
+button {
+    border-radius: 2px;
+    border: solid;
+    border-color: black;
+    padding: 5px 25px;
+}
+
+.button-outline {
+    background-color: white !important;
+}
+.button-primary-textFill {
+    color: rgb(82,174, 255) !important;
+    border: solid !important;
+}
+
+.button-danger-textFill {
+    color: red !important;
+    border: solid !important;
+}
+
+.button-success-textFill {
+    color: green !important;
+    border: solid !important;
+}
+
+.button-warning-textFill {
+    color: orange !important;
+    border: solid !important;
+}
+
+.button-default-textFill {
+    color: black !important;
+    border: solid !important;
+}
+
+
+.button-primary-muted {
+    background-color: rgb(234,245,255) !important;
+    border: none !important;
+}
+
+.button-danger-muted {
+    background-color: rgb(255,236,238) !important;
+    border: none !important;
+}
+
+.button-success-muted {
+    background-color: rgb(230,250,230) !important;
+    border: none !important;
+}
+
+.button-warning-muted {
+    background-color: rgb(255,249,229) !important;
+    border: none !important;
+}
+
+.button-default-muted {
+    background-color: rgb(246,247,248) !important;
+    border: none !important;
+}
+
+.button-primary {
+    background-color:rgb(82,174, 255);
+    color: white;
+    border: solid;
+    border-color: rgb(82,174, 255);
+}
+
+
+
+.button-danger {
+    background-color: red;
+    color: white;
+    border: red;
+}
+
+.button-success {
+    background-color:green;
+    color: white;
+    border: green;
+}
+
+.button-warning {
+    background-color: orange;
+    color: white;
+    border: orange;
+}
+
+.button-large {
+    padding: 5px 5px !important;
+    width: 150px;
+    height: 30px;
+}
+
+.button-large:hover {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+}
+
+.button-cursor:hover {
+    cursor: pointer;
+    border: solid
+}
+
+.button-default {
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+span {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+img {
+    height: 20px;
+    width: 20px;
+}
+#box {
+    height: 13px;
+    width: 13px;
+    border: solid;
+    border-width: thin;
+    margin-right: 10px;
+}
+
+.checked {
+    background-image: url(static/media/checkedBlack.d9e463d7.png);
+    background-size: contain;
+}
+
+.checkedBlue {
+    background-image: url(static/media/checkedBlue.53a58277.png);
+    background-size: contain;
+    border-color: blue;
+}
+
+#containThis {
+    display: flex;
+}
+
+.box {
+    width: 8%;
+    height: 20px;
+
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+
+.thisDiv {
+   
+    width: 20%;
+    display: flex;
+}
+
+.blue {
+    color: blue;
+}
+select {
+    background-color: white;
+	border-radius: 4px;
+	width: 80%;
+	padding: 6px;
+    font-size: 10px;
+    border: none;
+
+-webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+ -o-appearance: none;
+    appearance: none;
+}
+
+
+.outline {
+    border: solid;
+    border-width: thin;
+    border-color: gray;
+    border-radius: 5px;
+    width: 17%;
+}
+
+.medium {
+    padding: 8px;
+}
+.large {
+    padding: 10px;
+}
+
+.selectWrapper:after {
+    content: url(static/media/arrowThing.b72925e3.png);
+}
+.selectWrapper {
+}
+
+.background {
+    background-color: whitesmoke;
+    width: 17%;
+    border-radius: 5px;
+
+}
+
+.in-background {
+    background-color:whitesmoke;
+}
+
+
+
+
+
+.textInput-medium {
+    height: 100px;
+}
+
+.medium {
+    height: 24px;
+    padding: 6px !important;
+}
+
+.larger {
+    height: 38px;
+    padding: 9px !important;
+}
+
+
+form {
+    font-size: 12px;
+}
+
+input{
+    font-size: 12px;
+    margin-top: .3em;
+}
+#thisContainer {
+    display: flex;
+}
+
+.mediumButt {
+    margin-top: 5px;
+    height: 39px;
+    background-color:rgb(51, 160, 255);
+    color: white;
+    border-color: rgb(51, 160, 255);
+}
+
+.largerButt {
+   margin-top: 5px;
+    background-color:rgb(51, 160, 255);
+    color: white;
+    border-color: rgb(51, 160, 255);
+    height: 57px;  
+}
+
+
+
+/*# sourceMappingURL=main.9b726297.chunk.css.map*/
